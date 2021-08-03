@@ -1,0 +1,21 @@
+{
+  "name": "braincoke/admin-api-example",
+  "description": "AdminApiExample plugin",
+  "type": "shopware-platform-plugin",
+  "keywords": [
+      "shopware"
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "braincoke\\AdminApiExample\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "braincoke\\AdminApiExample\\AdminApiExample",
+    "label": {
+      "de-DE": "AdminApiExample plugin",
+      "en-GB": "AdminApiExample plugin"
+    }
+  }
+}
